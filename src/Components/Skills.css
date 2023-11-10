@@ -1,0 +1,78 @@
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .title-mini {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .imageprof{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .imageskill {
+    /* Add any additional styling for your images here */
+    max-width: 100%; /* Ensures images don't exceed their container */
+    margin: 10px; /* Add some margin to separate the images */
+  }
+  
+@media screen and (max-width:740px) {
+    .imageskill{
+        padding: 25px;
+        width: 300px;
+        height: 300px; 
+    }
+    .title{
+        font-size: 100px;
+    }
+    .title-mini{
+        margin-bottom: 20px;
+    }
+    .imageprof{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:940px) {
+    .imageskill{
+        padding: 25px;
+        width: 300px;
+        height: 300px; 
+    }
+    .title{
+        font-size: 50px;
+       } 
+       .title-mini{
+        font-size: 25px;
+       }
+    
+}
+@media screen and (min-width:941px) and (max-width:1240px) {
+    .imageskill{
+        padding: 25px;
+        width: 300px;
+        height: 300px; 
+    }
+   .title{
+    font-size: 70px;
+   } 
+   .title-mini{
+    font-size: 40px;
+   }
+}

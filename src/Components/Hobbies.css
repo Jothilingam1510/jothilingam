@@ -1,0 +1,38 @@
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgss{
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 25px;
+   max-width: 100%;
+   height: 100%;
+}
+.para{  
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 3rem;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+.abouttitle p{
+    font-size: 60px;
+    text-align: center;
+}
+
+@media screen and (min-width:1040px) {
+.para{
+    margin-left: 250px;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    width: 700px;
+}
+
+}
